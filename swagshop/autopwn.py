@@ -1,5 +1,5 @@
 from pwn import *
-import e37977, threading, random, string
+import e37977, e37811, threading, random, string
 
 p = log.progress("Executing Stage 1: Create Admin Account on Magento through E37977...")
 if not e37977.run():
